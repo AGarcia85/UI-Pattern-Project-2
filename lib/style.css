@@ -1,5 +1,5 @@
 body {
-    background-image: url(sharks/ocean.jpg);
+    background-image: url(SharkImages/ocean3.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -11,12 +11,7 @@ header {
     font-size: 50px;
     margin-bottom: 100px;
 }
-
-iframe {
-    position: relative;
     
-}
-
 .shark-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,6 +35,9 @@ button:hover {
 }
 
 .sharkModal {
+    z-index: 1;
+    left: 0;
+    top: 0;
     display: none;
     background: rgba(175, 175, 175, 0.5);
     position: fixed;
@@ -67,73 +65,73 @@ button:hover {
 }
 
 #shark01 {
-    background-image: url(sharks/whaleshark1.jpg);
+    background-image: url(SharkImages/whaleshark1.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark02 {
-    background-image: url(sharks/greatwhiteshark1.jpeg);
+    background-image: url(SharkImages/greatwhiteshark1.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 #shark03 {
-    background-image: url(sharks/hammerhead3.jpg);
+    background-image: url(SharkImages/hammerhead3.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark04 {
-    background-image: url(sharks/tigershark2.jpg);
+    background-image: url(SharkImages/tigershark2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark05 {
-    background-image: url(sharks/threshershark1.jpg);
+    background-image: url(SharkImages/threshershark1.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark06 {
-    background-image: url(sharks/bullshark2.jpg);
+    background-image: url(SharkImages/bullshark2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark07 {
-    background-image: url(sharks/sfmako2.jpg);
+    background-image: url(SharkImages/sfmako2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark08 {
-    background-image: url(sharks/blueshark1.jpg);
+    background-image: url(SharkImages/blueshark1.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark09 {
-    background-image: url(sharks/owtshark2.jpg);
+    background-image: url(SharkImages/owtshark2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark10 {
-    background-image: url(sharks/basking-shark2.jpg);
+    background-image: url(SharkImages/basking-shark2.jpg);
     background-position: center;
     background-size: cover;
 }
 
 #shark11 {
-    background-image: url(sharks/greenland-shark3.jpeg);
+    background-image: url(SharkImages/greenland-shark3.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 #shark12 {
-    background-image: url(sharks/goblin-shark1.jpg);
+    background-image: url(SharkImages/goblin-shark1.jpg);
     background-position: center;
     background-size: cover;
 }
