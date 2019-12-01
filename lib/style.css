@@ -7,7 +7,7 @@ body {
 header {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    color:white;
+    color:rgb(27, 72, 109);
     font-size: 75px;
     font-weight: bold;
     margin-bottom: 0;
@@ -53,6 +53,8 @@ button:hover {
 
 .sharkContent {
     background-color: ghostwhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
     margin: 5% auto;
     width: 80%;
     height: 50%;
