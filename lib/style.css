@@ -1,15 +1,21 @@
 body {
     background-image: url(SharkImages/ocean3.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 160%;
 }
 
 header {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: darkred;
-    font-size: 50px;
-    margin-bottom: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+iframe {
+    display: inline;
+    margin-left: 75px;
+    margin-right: 75px;
 }
     
 .shark-list {
