@@ -1,7 +1,8 @@
 body {
     background-image: url(SharkImages/ocean3.jpg);
     background-position: center;
-    background-size: 160%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -60,6 +61,7 @@ button:hover {
     width: 80%;
     height: 80%;
     padding: 10px;
+    overflow: scroll;
 }
 
 img{
@@ -150,3 +152,51 @@ img{
     background-size: cover;
 }
 
+@media (max-width: 450px) {
+    body {
+        background-position: center;
+        background-size: cover;
+    }
+    header {
+        font-size: 35px;
+        text-align: center;
+        margin: auto;
+    }
+    iframe {
+        width: 85%;
+        height: 300px;
+    }
+    .shark-list {
+        display: table;
+    }
+    .sharks {
+        width: 100%;
+        padding-left: 100px;
+    }
+    img {
+        width: 80%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header {
+        font-size: 35px;
+        text-align: center;
+        margin: auto;
+    }
+    .sharks {
+        width: 80%;
+        height: 300px;
+        padding-left: 100px;
+    }
+    img {
+        width: 90%;
+        height: 60%;
+    }
+}
